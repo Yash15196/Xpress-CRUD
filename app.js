@@ -1,11 +1,11 @@
-var express =require('express');
-var app=express();
-var bodyParser=require('body-parser');
-var mongoose=require('mongoose');
+let express =require('express');
+let app=express();
+let bodyParser=require('body-parser');
+let mongoose=require('mongoose');
 
 // connect to Mongoose
 
-var add=require('./routes/add')
+let add=require('./routes/add')
 
 
 /*app.get('/',function(req,res){
